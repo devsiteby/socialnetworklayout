@@ -1,4 +1,14 @@
-h1{
-    color: aqua;
-    background-color: red;
+*{
+    box-sizing: border-box;
+}
+.header{
+padding-top: 6px;
+padding-bottom: 6px;
+background-color: #0050B3;
+
+}
+.header-block{
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid yellow;
 }
