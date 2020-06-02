@@ -34,25 +34,34 @@ background-color: #0050B3;
     align-items: center;
 }
 .navigation-panel{
-margin-left: 12px;
-display: flex;
-align-items: center;
+   margin-left: 12px;
+   display: flex;
+   align-items: center;
 }
 .navigation-link{
-color: #ffffff;
-text-decoration: none;
-font-weight: 600;
-font-size: 14px;
-line-height: 22px;
-margin-left: 12px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  margin-left: 12px;
 }
 .navigation-link:before{
-    display: inline-block;
     content: "";
     width: 1px;
     height: 16px;
     background: #003A8C;
     margin-right: 12px;
+}
+.navigation-link:last-child::after{
+    content: "";
+    width: 1px;
+    height: 16px;
+    background: #003A8C;
+    margin-right: 12px;   
+    margin-left: 12px;
 }
 .user{
     display: flex;
