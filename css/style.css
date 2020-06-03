@@ -106,6 +106,7 @@ margin: auto;
 }
 
 .menu-sidebar{
+    margin-top: 18px;
     max-width: 192px;
 }
 
@@ -113,18 +114,21 @@ margin: auto;
     width: 24px;
     height: 24px;
 }
-
+.menu-sidebar .user{
+padding-left: 10px;
+}
 .menu-sidebar .user-name {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
     color: #262626;
-
 } 
 .nav-group {
 display: flex;
 flex-direction: column;
 justify-content: center;
+margin-top: 12px;
+margin-bottom: 24px;
 }
 
 .nav-link {
@@ -134,9 +138,26 @@ align-items: center;
 border-radius: 4px;
 text-decoration: none;
 color: #595959;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
 }
 
 .nav-link.active{
 background: #FFFFFF;
 color: #262626;
+}
+
+.nav-text{
+    margin-left: 8px;
+}
+
+.nav-title{
+    padding-left: 10px;
+    color: #262626;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    margin-top: 0;
 }
